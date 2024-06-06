@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+header {
+  height: 250px;
+  flex-direction: column;
+}
+
+ 
+
+
+.logo > img{
+  padding-left: 24em;
+  height: 16em;    
+  padding-bottom: 20px;
+  background-size: cover; /* Ajuste conforme necessário */
+  filter: brightness(0) invert(1); /* Isso transforma a imagem em branco */
+  display: flex;
+
+}   
+
+
+.menu > a {
+color: rgba(255, 255, 255, 0.952);
+text-decoration: none;
+padding: 30px;
+font-family: "Shantell Sans", cursive;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+font-variation-settings:
+  "BNCE" 0,
+  "INFM" 0,
+  "SPAC" 0;
+font-size: 17px;
+padding-left: 20px;
+
+
+
+}
+.menu{
+  display: flex;
+  align-items: center; /* Alinha verticalmente os itens */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  padding: 20px;
+  padding-left: 70px;
+  height: 200px;
+  color: #FFF;
+  transition: all 0.5s;
+  position: relative;
+}
+
+  main{
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+
+
+
+.interface {
+  position: relative; /* Para conter o pseudo-elemento */
+  padding: 1px;
+  padding-bottom: 70em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  background-image: url(imagem/bawaaaah.png);
+  
+}
+
+
+
+.principal{
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+padding: 40px;
+
+}
+.conteudo > img {
+  width: 100%;
+  height: 1200px;
+}
+.conteudo{
+  width: 100%;
+}
+
+
+.email-form input[type="email"] {
+  padding: 15px 20px;
+  font-size: 16px;
+  width: 300px;
+  border: 2px solid #000000;
+  border-radius: 25px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.email-form input[type="email"]::placeholder {
+  color: #aaa;
+  font-style: italic;
+  font-size: 13px;
+  
+}
+
+.email-form input[type="email"]:focus {
+  border-color: #f7f7f7;
+  box-shadow: 0 0 10px rgba(233, 233, 233, 0.5);
+}
+.email-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.btn-one {
+ display: flex;
+ margin: 5em;
+ margin-left: 35em;
+ padding: 5px;
+height: 20px;
+padding-top: 25px;
+color: #ffffff;
+transition: all 0.3s;
+position: relative;
+font-family: "Shantell Sans", cursive;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+font-variation-settings:
+  "BNCE" 0,
+  "INFM" 0,
+  "SPAC" 0;
+  font-size: 17px;
+  margin-left: 28em;
+
+
+
+}
+btn-one > a {
+  transition: all 0.3s;
+  
+}
+.btn-one::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height:60%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: rgb(255, 255, 255);
+  border-bottom-color: rgb(255, 255, 255);
+  transform: scale(0.1, 1);
+ 
+}
+.btn-one:hover a {
+  letter-spacing: 2px;
+ 
+}
+.btn-one:hover::before {
+  opacity: 1; 
+  transform: scale(1, 1); 
+
+}
+.btn-one::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+  background-color: rgba(255, 255, 255, 0.027);
+ 
+}
+.btn-one:hover::after {
+  opacity: 0; 
+  transform: scale(0.1, 1);
+  
+}
+.btn{
+  text-decoration: none;
+  color: white;
+}
+
+.btn-email{
+  align-content: center;
+ margin-top: 400px;
+
+ 
+ 
+
+ 
+ }
+    
+
+    
+    
+    
+
